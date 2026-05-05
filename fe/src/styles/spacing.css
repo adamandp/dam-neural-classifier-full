@@ -1,0 +1,929 @@
+@theme {
+  --spacing-c-0-5: clamp(calc(2px * 0.6), calc(2 / 1920 * 100vw), 2px);
+  --spacing-c-1: clamp(calc(4px * 0.6), calc(4 / 1920 * 100vw), 4px);
+  --spacing-c-1-5: clamp(calc(6px * 0.6), calc(6 / 1920 * 100vw), 6px);
+  --spacing-c-2: clamp(calc(8px * 0.6), calc(8 / 1920 * 100vw), 8px);
+  --spacing-c-2-5: clamp(calc(10px * 0.6), calc(10 / 1920 * 100vw), 10px);
+  --spacing-c-3: clamp(calc(12px * 0.6), calc(12 / 1920 * 100vw), 12px);
+  --spacing-c-3-5: clamp(calc(14px * 0.6), calc(14 / 1920 * 100vw), 14px);
+  --spacing-c-4: clamp(calc(16px * 0.6), calc(16 / 1920 * 100vw), 16px);
+  --spacing-c-4-5: clamp(calc(18px * 0.6), calc(18 / 1920 * 100vw), 18px);
+  --spacing-c-5: clamp(calc(20px * 0.6), calc(20 / 1920 * 100vw), 20px);
+  --spacing-c-5-5: clamp(calc(22px * 0.6), calc(22 / 1920 * 100vw), 22px);
+  --spacing-c-6: clamp(calc(24px * 0.6), calc(24 / 1920 * 100vw), 24px);
+  --spacing-c-6-5: clamp(calc(26px * 0.6), calc(26 / 1920 * 100vw), 26px);
+  --spacing-c-7: clamp(calc(28px * 0.6), calc(28 / 1920 * 100vw), 28px);
+  --spacing-c-7-5: clamp(calc(30px * 0.6), calc(30 / 1920 * 100vw), 30px);
+  --spacing-c-8: clamp(calc(32px * 0.6), calc(32 / 1920 * 100vw), 32px);
+  --spacing-c-8-5: clamp(calc(34px * 0.6), calc(34 / 1920 * 100vw), 34px);
+  --spacing-c-9: clamp(calc(36px * 0.6), calc(36 / 1920 * 100vw), 36px);
+  --spacing-c-9-5: clamp(calc(38px * 0.6), calc(38 / 1920 * 100vw), 38px);
+  --spacing-c-10: clamp(calc(40px * 0.6), calc(40 / 1920 * 100vw), 40px);
+  --spacing-c-10-5: clamp(calc(42px * 0.6), calc(42 / 1920 * 100vw), 42px);
+  --spacing-c-11: clamp(calc(44px * 0.6), calc(44 / 1920 * 100vw), 44px);
+  --spacing-c-11-5: clamp(calc(46px * 0.6), calc(46 / 1920 * 100vw), 46px);
+  --spacing-c-12: clamp(calc(48px * 0.6), calc(48 / 1920 * 100vw), 48px);
+  --spacing-c-12-5: clamp(calc(50px * 0.6), calc(50 / 1920 * 100vw), 50px);
+  --spacing-c-13: clamp(calc(52px * 0.6), calc(52 / 1920 * 100vw), 52px);
+  --spacing-c-13-5: clamp(calc(54px * 0.6), calc(54 / 1920 * 100vw), 54px);
+  --spacing-c-14: clamp(calc(56px * 0.6), calc(56 / 1920 * 100vw), 56px);
+  --spacing-c-14-5: clamp(calc(58px * 0.6), calc(58 / 1920 * 100vw), 58px);
+  --spacing-c-15: clamp(calc(60px * 0.6), calc(60 / 1920 * 100vw), 60px);
+  --spacing-c-15-5: clamp(calc(62px * 0.6), calc(62 / 1920 * 100vw), 62px);
+  --spacing-c-16: clamp(calc(64px * 0.6), calc(64 / 1920 * 100vw), 64px);
+  --spacing-c-16-5: clamp(calc(66px * 0.6), calc(66 / 1920 * 100vw), 66px);
+  --spacing-c-17: clamp(calc(68px * 0.6), calc(68 / 1920 * 100vw), 68px);
+  --spacing-c-17-5: clamp(calc(70px * 0.6), calc(70 / 1920 * 100vw), 70px);
+  --spacing-c-18: clamp(calc(72px * 0.6), calc(72 / 1920 * 100vw), 72px);
+  --spacing-c-18-5: clamp(calc(74px * 0.6), calc(74 / 1920 * 100vw), 74px);
+  --spacing-c-19: clamp(calc(76px * 0.6), calc(76 / 1920 * 100vw), 76px);
+  --spacing-c-19-5: clamp(calc(78px * 0.6), calc(78 / 1920 * 100vw), 78px);
+  --spacing-c-20: clamp(calc(80px * 0.6), calc(80 / 1920 * 100vw), 80px);
+  --spacing-c-20-5: clamp(calc(82px * 0.6), calc(82 / 1920 * 100vw), 82px);
+  --spacing-c-21: clamp(calc(84px * 0.6), calc(84 / 1920 * 100vw), 84px);
+  --spacing-c-21-5: clamp(calc(86px * 0.6), calc(86 / 1920 * 100vw), 86px);
+  --spacing-c-22: clamp(calc(88px * 0.6), calc(88 / 1920 * 100vw), 88px);
+  --spacing-c-22-5: clamp(calc(90px * 0.6), calc(90 / 1920 * 100vw), 90px);
+  --spacing-c-23: clamp(calc(92px * 0.6), calc(92 / 1920 * 100vw), 92px);
+  --spacing-c-23-5: clamp(calc(94px * 0.6), calc(94 / 1920 * 100vw), 94px);
+  --spacing-c-24: clamp(calc(96px * 0.6), calc(96 / 1920 * 100vw), 96px);
+  --spacing-c-24-5: clamp(calc(98px * 0.6), calc(98 / 1920 * 100vw), 98px);
+  --spacing-c-25: clamp(calc(100px * 0.6), calc(100 / 1920 * 100vw), 100px);
+  --spacing-c-25-5: clamp(calc(102px * 0.6), calc(102 / 1920 * 100vw), 102px);
+  --spacing-c-26: clamp(calc(104px * 0.6), calc(104 / 1920 * 100vw), 104px);
+  --spacing-c-26-5: clamp(calc(106px * 0.6), calc(106 / 1920 * 100vw), 106px);
+  --spacing-c-27: clamp(calc(108px * 0.6), calc(108 / 1920 * 100vw), 108px);
+  --spacing-c-27-5: clamp(calc(110px * 0.6), calc(110 / 1920 * 100vw), 110px);
+  --spacing-c-28: clamp(calc(112px * 0.6), calc(112 / 1920 * 100vw), 112px);
+  --spacing-c-28-5: clamp(calc(114px * 0.6), calc(114 / 1920 * 100vw), 114px);
+  --spacing-c-29: clamp(calc(116px * 0.6), calc(116 / 1920 * 100vw), 116px);
+  --spacing-c-29-5: clamp(calc(118px * 0.6), calc(118 / 1920 * 100vw), 118px);
+  --spacing-c-30: clamp(calc(120px * 0.6), calc(120 / 1920 * 100vw), 120px);
+  --spacing-c-30-5: clamp(calc(122px * 0.6), calc(122 / 1920 * 100vw), 122px);
+  --spacing-c-31: clamp(calc(124px * 0.6), calc(124 / 1920 * 100vw), 124px);
+  --spacing-c-31-5: clamp(calc(126px * 0.6), calc(126 / 1920 * 100vw), 126px);
+  --spacing-c-32: clamp(calc(128px * 0.6), calc(128 / 1920 * 100vw), 128px);
+  --spacing-c-32-5: clamp(calc(130px * 0.6), calc(130 / 1920 * 100vw), 130px);
+  --spacing-c-33: clamp(calc(132px * 0.6), calc(132 / 1920 * 100vw), 132px);
+  --spacing-c-33-5: clamp(calc(134px * 0.6), calc(134 / 1920 * 100vw), 134px);
+  --spacing-c-34: clamp(calc(136px * 0.6), calc(136 / 1920 * 100vw), 136px);
+  --spacing-c-34-5: clamp(calc(138px * 0.6), calc(138 / 1920 * 100vw), 138px);
+  --spacing-c-35: clamp(calc(140px * 0.6), calc(140 / 1920 * 100vw), 140px);
+  --spacing-c-35-5: clamp(calc(142px * 0.6), calc(142 / 1920 * 100vw), 142px);
+  --spacing-c-36: clamp(calc(144px * 0.6), calc(144 / 1920 * 100vw), 144px);
+  --spacing-c-36-5: clamp(calc(146px * 0.6), calc(146 / 1920 * 100vw), 146px);
+  --spacing-c-37: clamp(calc(148px * 0.6), calc(148 / 1920 * 100vw), 148px);
+  --spacing-c-37-5: clamp(calc(150px * 0.6), calc(150 / 1920 * 100vw), 150px);
+  --spacing-c-38: clamp(calc(152px * 0.6), calc(152 / 1920 * 100vw), 152px);
+  --spacing-c-38-5: clamp(calc(154px * 0.6), calc(154 / 1920 * 100vw), 154px);
+  --spacing-c-39: clamp(calc(156px * 0.6), calc(156 / 1920 * 100vw), 156px);
+  --spacing-c-39-5: clamp(calc(158px * 0.6), calc(158 / 1920 * 100vw), 158px);
+  --spacing-c-40: clamp(calc(160px * 0.6), calc(160 / 1920 * 100vw), 160px);
+  --spacing-c-40-5: clamp(calc(162px * 0.6), calc(162 / 1920 * 100vw), 162px);
+  --spacing-c-41: clamp(calc(164px * 0.6), calc(164 / 1920 * 100vw), 164px);
+  --spacing-c-41-5: clamp(calc(166px * 0.6), calc(166 / 1920 * 100vw), 166px);
+  --spacing-c-42: clamp(calc(168px * 0.6), calc(168 / 1920 * 100vw), 168px);
+  --spacing-c-42-5: clamp(calc(170px * 0.6), calc(170 / 1920 * 100vw), 170px);
+  --spacing-c-43: clamp(calc(172px * 0.6), calc(172 / 1920 * 100vw), 172px);
+  --spacing-c-43-5: clamp(calc(174px * 0.6), calc(174 / 1920 * 100vw), 174px);
+  --spacing-c-44: clamp(calc(176px * 0.6), calc(176 / 1920 * 100vw), 176px);
+  --spacing-c-44-5: clamp(calc(178px * 0.6), calc(178 / 1920 * 100vw), 178px);
+  --spacing-c-45: clamp(calc(180px * 0.6), calc(180 / 1920 * 100vw), 180px);
+  --spacing-c-45-5: clamp(calc(182px * 0.6), calc(182 / 1920 * 100vw), 182px);
+  --spacing-c-46: clamp(calc(184px * 0.6), calc(184 / 1920 * 100vw), 184px);
+  --spacing-c-46-5: clamp(calc(186px * 0.6), calc(186 / 1920 * 100vw), 186px);
+  --spacing-c-47: clamp(calc(188px * 0.6), calc(188 / 1920 * 100vw), 188px);
+  --spacing-c-47-5: clamp(calc(190px * 0.6), calc(190 / 1920 * 100vw), 190px);
+  --spacing-c-48: clamp(calc(192px * 0.6), calc(192 / 1920 * 100vw), 192px);
+  --spacing-c-48-5: clamp(calc(194px * 0.6), calc(194 / 1920 * 100vw), 194px);
+  --spacing-c-49: clamp(calc(196px * 0.6), calc(196 / 1920 * 100vw), 196px);
+  --spacing-c-49-5: clamp(calc(198px * 0.6), calc(198 / 1920 * 100vw), 198px);
+  --spacing-c-50: clamp(calc(200px * 0.6), calc(200 / 1920 * 100vw), 200px);
+  --spacing-c-50-5: clamp(calc(202px * 0.6), calc(202 / 1920 * 100vw), 202px);
+  --spacing-c-51: clamp(calc(204px * 0.6), calc(204 / 1920 * 100vw), 204px);
+  --spacing-c-51-5: clamp(calc(206px * 0.6), calc(206 / 1920 * 100vw), 206px);
+  --spacing-c-52: clamp(calc(208px * 0.6), calc(208 / 1920 * 100vw), 208px);
+  --spacing-c-52-5: clamp(calc(210px * 0.6), calc(210 / 1920 * 100vw), 210px);
+  --spacing-c-53: clamp(calc(212px * 0.6), calc(212 / 1920 * 100vw), 212px);
+  --spacing-c-53-5: clamp(calc(214px * 0.6), calc(214 / 1920 * 100vw), 214px);
+  --spacing-c-54: clamp(calc(216px * 0.6), calc(216 / 1920 * 100vw), 216px);
+  --spacing-c-54-5: clamp(calc(218px * 0.6), calc(218 / 1920 * 100vw), 218px);
+  --spacing-c-55: clamp(calc(220px * 0.6), calc(220 / 1920 * 100vw), 220px);
+  --spacing-c-55-5: clamp(calc(222px * 0.6), calc(222 / 1920 * 100vw), 222px);
+  --spacing-c-56: clamp(calc(224px * 0.6), calc(224 / 1920 * 100vw), 224px);
+  --spacing-c-56-5: clamp(calc(226px * 0.6), calc(226 / 1920 * 100vw), 226px);
+  --spacing-c-57: clamp(calc(228px * 0.6), calc(228 / 1920 * 100vw), 228px);
+  --spacing-c-57-5: clamp(calc(230px * 0.6), calc(230 / 1920 * 100vw), 230px);
+  --spacing-c-58: clamp(calc(232px * 0.6), calc(232 / 1920 * 100vw), 232px);
+  --spacing-c-58-5: clamp(calc(234px * 0.6), calc(234 / 1920 * 100vw), 234px);
+  --spacing-c-59: clamp(calc(236px * 0.6), calc(236 / 1920 * 100vw), 236px);
+  --spacing-c-59-5: clamp(calc(238px * 0.6), calc(238 / 1920 * 100vw), 238px);
+  --spacing-c-60: clamp(calc(240px * 0.6), calc(240 / 1920 * 100vw), 240px);
+  --spacing-c-60-5: clamp(calc(242px * 0.6), calc(242 / 1920 * 100vw), 242px);
+  --spacing-c-61: clamp(calc(244px * 0.6), calc(244 / 1920 * 100vw), 244px);
+  --spacing-c-61-5: clamp(calc(246px * 0.6), calc(246 / 1920 * 100vw), 246px);
+  --spacing-c-62: clamp(calc(248px * 0.6), calc(248 / 1920 * 100vw), 248px);
+  --spacing-c-62-5: clamp(calc(250px * 0.6), calc(250 / 1920 * 100vw), 250px);
+  --spacing-c-63: clamp(calc(252px * 0.6), calc(252 / 1920 * 100vw), 252px);
+  --spacing-c-63-5: clamp(calc(254px * 0.6), calc(254 / 1920 * 100vw), 254px);
+  --spacing-c-64: clamp(calc(256px * 0.6), calc(256 / 1920 * 100vw), 256px);
+  --spacing-c-64-5: clamp(calc(258px * 0.6), calc(258 / 1920 * 100vw), 258px);
+  --spacing-c-65: clamp(calc(260px * 0.6), calc(260 / 1920 * 100vw), 260px);
+  --spacing-c-65-5: clamp(calc(262px * 0.6), calc(262 / 1920 * 100vw), 262px);
+  --spacing-c-66: clamp(calc(264px * 0.6), calc(264 / 1920 * 100vw), 264px);
+  --spacing-c-66-5: clamp(calc(266px * 0.6), calc(266 / 1920 * 100vw), 266px);
+  --spacing-c-67: clamp(calc(268px * 0.6), calc(268 / 1920 * 100vw), 268px);
+  --spacing-c-67-5: clamp(calc(270px * 0.6), calc(270 / 1920 * 100vw), 270px);
+  --spacing-c-68: clamp(calc(272px * 0.6), calc(272 / 1920 * 100vw), 272px);
+  --spacing-c-68-5: clamp(calc(274px * 0.6), calc(274 / 1920 * 100vw), 274px);
+  --spacing-c-69: clamp(calc(276px * 0.6), calc(276 / 1920 * 100vw), 276px);
+  --spacing-c-69-5: clamp(calc(278px * 0.6), calc(278 / 1920 * 100vw), 278px);
+  --spacing-c-70: clamp(calc(280px * 0.6), calc(280 / 1920 * 100vw), 280px);
+  --spacing-c-70-5: clamp(calc(282px * 0.6), calc(282 / 1920 * 100vw), 282px);
+  --spacing-c-71: clamp(calc(284px * 0.6), calc(284 / 1920 * 100vw), 284px);
+  --spacing-c-71-5: clamp(calc(286px * 0.6), calc(286 / 1920 * 100vw), 286px);
+  --spacing-c-72: clamp(calc(288px * 0.6), calc(288 / 1920 * 100vw), 288px);
+  --spacing-c-72-5: clamp(calc(290px * 0.6), calc(290 / 1920 * 100vw), 290px);
+  --spacing-c-73: clamp(calc(292px * 0.6), calc(292 / 1920 * 100vw), 292px);
+  --spacing-c-73-5: clamp(calc(294px * 0.6), calc(294 / 1920 * 100vw), 294px);
+  --spacing-c-74: clamp(calc(296px * 0.6), calc(296 / 1920 * 100vw), 296px);
+  --spacing-c-74-5: clamp(calc(298px * 0.6), calc(298 / 1920 * 100vw), 298px);
+  --spacing-c-75: clamp(calc(300px * 0.6), calc(300 / 1920 * 100vw), 300px);
+  --spacing-c-75-5: clamp(calc(302px * 0.6), calc(302 / 1920 * 100vw), 302px);
+  --spacing-c-76: clamp(calc(304px * 0.6), calc(304 / 1920 * 100vw), 304px);
+  --spacing-c-76-5: clamp(calc(306px * 0.6), calc(306 / 1920 * 100vw), 306px);
+  --spacing-c-77: clamp(calc(308px * 0.6), calc(308 / 1920 * 100vw), 308px);
+  --spacing-c-77-5: clamp(calc(310px * 0.6), calc(310 / 1920 * 100vw), 310px);
+  --spacing-c-78: clamp(calc(312px * 0.6), calc(312 / 1920 * 100vw), 312px);
+  --spacing-c-78-5: clamp(calc(314px * 0.6), calc(314 / 1920 * 100vw), 314px);
+  --spacing-c-79: clamp(calc(316px * 0.6), calc(316 / 1920 * 100vw), 316px);
+  --spacing-c-79-5: clamp(calc(318px * 0.6), calc(318 / 1920 * 100vw), 318px);
+  --spacing-c-80: clamp(calc(320px * 0.6), calc(320 / 1920 * 100vw), 320px);
+  --spacing-c-80-5: clamp(calc(322px * 0.6), calc(322 / 1920 * 100vw), 322px);
+  --spacing-c-81: clamp(calc(324px * 0.6), calc(324 / 1920 * 100vw), 324px);
+  --spacing-c-81-5: clamp(calc(326px * 0.6), calc(326 / 1920 * 100vw), 326px);
+  --spacing-c-82: clamp(calc(328px * 0.6), calc(328 / 1920 * 100vw), 328px);
+  --spacing-c-82-5: clamp(calc(330px * 0.6), calc(330 / 1920 * 100vw), 330px);
+  --spacing-c-83: clamp(calc(332px * 0.6), calc(332 / 1920 * 100vw), 332px);
+  --spacing-c-83-5: clamp(calc(334px * 0.6), calc(334 / 1920 * 100vw), 334px);
+  --spacing-c-84: clamp(calc(336px * 0.6), calc(336 / 1920 * 100vw), 336px);
+  --spacing-c-84-5: clamp(calc(338px * 0.6), calc(338 / 1920 * 100vw), 338px);
+  --spacing-c-85: clamp(calc(340px * 0.6), calc(340 / 1920 * 100vw), 340px);
+  --spacing-c-85-5: clamp(calc(342px * 0.6), calc(342 / 1920 * 100vw), 342px);
+  --spacing-c-86: clamp(calc(344px * 0.6), calc(344 / 1920 * 100vw), 344px);
+  --spacing-c-86-5: clamp(calc(346px * 0.6), calc(346 / 1920 * 100vw), 346px);
+  --spacing-c-87: clamp(calc(348px * 0.6), calc(348 / 1920 * 100vw), 348px);
+  --spacing-c-87-5: clamp(calc(350px * 0.6), calc(350 / 1920 * 100vw), 350px);
+  --spacing-c-88: clamp(calc(352px * 0.6), calc(352 / 1920 * 100vw), 352px);
+  --spacing-c-88-5: clamp(calc(354px * 0.6), calc(354 / 1920 * 100vw), 354px);
+  --spacing-c-89: clamp(calc(356px * 0.6), calc(356 / 1920 * 100vw), 356px);
+  --spacing-c-89-5: clamp(calc(358px * 0.6), calc(358 / 1920 * 100vw), 358px);
+  --spacing-c-90: clamp(calc(360px * 0.6), calc(360 / 1920 * 100vw), 360px);
+  --spacing-c-90-5: clamp(calc(362px * 0.6), calc(362 / 1920 * 100vw), 362px);
+  --spacing-c-91: clamp(calc(364px * 0.6), calc(364 / 1920 * 100vw), 364px);
+  --spacing-c-91-5: clamp(calc(366px * 0.6), calc(366 / 1920 * 100vw), 366px);
+  --spacing-c-92: clamp(calc(368px * 0.6), calc(368 / 1920 * 100vw), 368px);
+  --spacing-c-92-5: clamp(calc(370px * 0.6), calc(370 / 1920 * 100vw), 370px);
+  --spacing-c-93: clamp(calc(372px * 0.6), calc(372 / 1920 * 100vw), 372px);
+  --spacing-c-93-5: clamp(calc(374px * 0.6), calc(374 / 1920 * 100vw), 374px);
+  --spacing-c-94: clamp(calc(376px * 0.6), calc(376 / 1920 * 100vw), 376px);
+  --spacing-c-94-5: clamp(calc(378px * 0.6), calc(378 / 1920 * 100vw), 378px);
+  --spacing-c-95: clamp(calc(380px * 0.6), calc(380 / 1920 * 100vw), 380px);
+  --spacing-c-95-5: clamp(calc(382px * 0.6), calc(382 / 1920 * 100vw), 382px);
+  --spacing-c-96: clamp(calc(384px * 0.6), calc(384 / 1920 * 100vw), 384px);
+  --spacing-c-96-5: clamp(calc(386px * 0.6), calc(386 / 1920 * 100vw), 386px);
+  --spacing-c-97: clamp(calc(388px * 0.6), calc(388 / 1920 * 100vw), 388px);
+  --spacing-c-97-5: clamp(calc(390px * 0.6), calc(390 / 1920 * 100vw), 390px);
+  --spacing-c-98: clamp(calc(392px * 0.6), calc(392 / 1920 * 100vw), 392px);
+  --spacing-c-98-5: clamp(calc(394px * 0.6), calc(394 / 1920 * 100vw), 394px);
+  --spacing-c-99: clamp(calc(396px * 0.6), calc(396 / 1920 * 100vw), 396px);
+  --spacing-c-99-5: clamp(calc(398px * 0.6), calc(398 / 1920 * 100vw), 398px);
+  --spacing-c-100: clamp(calc(400px * 0.6), calc(400 / 1920 * 100vw), 400px);
+  --spacing-c-100-5: clamp(calc(402px * 0.6), calc(402 / 1920 * 100vw), 402px);
+  --spacing-c-101: clamp(calc(404px * 0.6), calc(404 / 1920 * 100vw), 404px);
+  --spacing-c-101-5: clamp(calc(406px * 0.6), calc(406 / 1920 * 100vw), 406px);
+  --spacing-c-102: clamp(calc(408px * 0.6), calc(408 / 1920 * 100vw), 408px);
+  --spacing-c-102-5: clamp(calc(410px * 0.6), calc(410 / 1920 * 100vw), 410px);
+  --spacing-c-103: clamp(calc(412px * 0.6), calc(412 / 1920 * 100vw), 412px);
+  --spacing-c-103-5: clamp(calc(414px * 0.6), calc(414 / 1920 * 100vw), 414px);
+  --spacing-c-104: clamp(calc(416px * 0.6), calc(416 / 1920 * 100vw), 416px);
+  --spacing-c-104-5: clamp(calc(418px * 0.6), calc(418 / 1920 * 100vw), 418px);
+  --spacing-c-105: clamp(calc(420px * 0.6), calc(420 / 1920 * 100vw), 420px);
+  --spacing-c-105-5: clamp(calc(422px * 0.6), calc(422 / 1920 * 100vw), 422px);
+  --spacing-c-106: clamp(calc(424px * 0.6), calc(424 / 1920 * 100vw), 424px);
+  --spacing-c-106-5: clamp(calc(426px * 0.6), calc(426 / 1920 * 100vw), 426px);
+  --spacing-c-107: clamp(calc(428px * 0.6), calc(428 / 1920 * 100vw), 428px);
+  --spacing-c-107-5: clamp(calc(430px * 0.6), calc(430 / 1920 * 100vw), 430px);
+  --spacing-c-108: clamp(calc(432px * 0.6), calc(432 / 1920 * 100vw), 432px);
+  --spacing-c-108-5: clamp(calc(434px * 0.6), calc(434 / 1920 * 100vw), 434px);
+  --spacing-c-109: clamp(calc(436px * 0.6), calc(436 / 1920 * 100vw), 436px);
+  --spacing-c-109-5: clamp(calc(438px * 0.6), calc(438 / 1920 * 100vw), 438px);
+  --spacing-c-110: clamp(calc(440px * 0.6), calc(440 / 1920 * 100vw), 440px);
+  --spacing-c-110-5: clamp(calc(442px * 0.6), calc(442 / 1920 * 100vw), 442px);
+  --spacing-c-111: clamp(calc(444px * 0.6), calc(444 / 1920 * 100vw), 444px);
+  --spacing-c-111-5: clamp(calc(446px * 0.6), calc(446 / 1920 * 100vw), 446px);
+  --spacing-c-112: clamp(calc(448px * 0.6), calc(448 / 1920 * 100vw), 448px);
+  --spacing-c-112-5: clamp(calc(450px * 0.6), calc(450 / 1920 * 100vw), 450px);
+  --spacing-c-113: clamp(calc(452px * 0.6), calc(452 / 1920 * 100vw), 452px);
+  --spacing-c-113-5: clamp(calc(454px * 0.6), calc(454 / 1920 * 100vw), 454px);
+  --spacing-c-114: clamp(calc(456px * 0.6), calc(456 / 1920 * 100vw), 456px);
+  --spacing-c-114-5: clamp(calc(458px * 0.6), calc(458 / 1920 * 100vw), 458px);
+  --spacing-c-115: clamp(calc(460px * 0.6), calc(460 / 1920 * 100vw), 460px);
+  --spacing-c-115-5: clamp(calc(462px * 0.6), calc(462 / 1920 * 100vw), 462px);
+  --spacing-c-116: clamp(calc(464px * 0.6), calc(464 / 1920 * 100vw), 464px);
+  --spacing-c-116-5: clamp(calc(466px * 0.6), calc(466 / 1920 * 100vw), 466px);
+  --spacing-c-117: clamp(calc(468px * 0.6), calc(468 / 1920 * 100vw), 468px);
+  --spacing-c-117-5: clamp(calc(470px * 0.6), calc(470 / 1920 * 100vw), 470px);
+  --spacing-c-118: clamp(calc(472px * 0.6), calc(472 / 1920 * 100vw), 472px);
+  --spacing-c-118-5: clamp(calc(474px * 0.6), calc(474 / 1920 * 100vw), 474px);
+  --spacing-c-119: clamp(calc(476px * 0.6), calc(476 / 1920 * 100vw), 476px);
+  --spacing-c-119-5: clamp(calc(478px * 0.6), calc(478 / 1920 * 100vw), 478px);
+  --spacing-c-120: clamp(calc(480px * 0.6), calc(480 / 1920 * 100vw), 480px);
+  --spacing-c-120-5: clamp(calc(482px * 0.6), calc(482 / 1920 * 100vw), 482px);
+  --spacing-c-121: clamp(calc(484px * 0.6), calc(484 / 1920 * 100vw), 484px);
+  --spacing-c-121-5: clamp(calc(486px * 0.6), calc(486 / 1920 * 100vw), 486px);
+  --spacing-c-122: clamp(calc(488px * 0.6), calc(488 / 1920 * 100vw), 488px);
+  --spacing-c-122-5: clamp(calc(490px * 0.6), calc(490 / 1920 * 100vw), 490px);
+  --spacing-c-123: clamp(calc(492px * 0.6), calc(492 / 1920 * 100vw), 492px);
+  --spacing-c-123-5: clamp(calc(494px * 0.6), calc(494 / 1920 * 100vw), 494px);
+  --spacing-c-124: clamp(calc(496px * 0.6), calc(496 / 1920 * 100vw), 496px);
+  --spacing-c-124-5: clamp(calc(498px * 0.6), calc(498 / 1920 * 100vw), 498px);
+  --spacing-c-125: clamp(calc(500px * 0.6), calc(500 / 1920 * 100vw), 500px);
+  --spacing-c-125-5: clamp(calc(502px * 0.6), calc(502 / 1920 * 100vw), 502px);
+  --spacing-c-126: clamp(calc(504px * 0.6), calc(504 / 1920 * 100vw), 504px);
+  --spacing-c-126-5: clamp(calc(506px * 0.6), calc(506 / 1920 * 100vw), 506px);
+  --spacing-c-127: clamp(calc(508px * 0.6), calc(508 / 1920 * 100vw), 508px);
+  --spacing-c-127-5: clamp(calc(510px * 0.6), calc(510 / 1920 * 100vw), 510px);
+  --spacing-c-128: clamp(calc(512px * 0.6), calc(512 / 1920 * 100vw), 512px);
+  --spacing-c-128-5: clamp(calc(514px * 0.6), calc(514 / 1920 * 100vw), 514px);
+  --spacing-c-129: clamp(calc(516px * 0.6), calc(516 / 1920 * 100vw), 516px);
+  --spacing-c-129-5: clamp(calc(518px * 0.6), calc(518 / 1920 * 100vw), 518px);
+  --spacing-c-130: clamp(calc(520px * 0.6), calc(520 / 1920 * 100vw), 520px);
+  --spacing-c-130-5: clamp(calc(522px * 0.6), calc(522 / 1920 * 100vw), 522px);
+  --spacing-c-131: clamp(calc(524px * 0.6), calc(524 / 1920 * 100vw), 524px);
+  --spacing-c-131-5: clamp(calc(526px * 0.6), calc(526 / 1920 * 100vw), 526px);
+  --spacing-c-132: clamp(calc(528px * 0.6), calc(528 / 1920 * 100vw), 528px);
+  --spacing-c-132-5: clamp(calc(530px * 0.6), calc(530 / 1920 * 100vw), 530px);
+  --spacing-c-133: clamp(calc(532px * 0.6), calc(532 / 1920 * 100vw), 532px);
+  --spacing-c-133-5: clamp(calc(534px * 0.6), calc(534 / 1920 * 100vw), 534px);
+  --spacing-c-134: clamp(calc(536px * 0.6), calc(536 / 1920 * 100vw), 536px);
+  --spacing-c-134-5: clamp(calc(538px * 0.6), calc(538 / 1920 * 100vw), 538px);
+  --spacing-c-135: clamp(calc(540px * 0.6), calc(540 / 1920 * 100vw), 540px);
+  --spacing-c-135-5: clamp(calc(542px * 0.6), calc(542 / 1920 * 100vw), 542px);
+  --spacing-c-136: clamp(calc(544px * 0.6), calc(544 / 1920 * 100vw), 544px);
+  --spacing-c-136-5: clamp(calc(546px * 0.6), calc(546 / 1920 * 100vw), 546px);
+  --spacing-c-137: clamp(calc(548px * 0.6), calc(548 / 1920 * 100vw), 548px);
+  --spacing-c-137-5: clamp(calc(550px * 0.6), calc(550 / 1920 * 100vw), 550px);
+  --spacing-c-138: clamp(calc(552px * 0.6), calc(552 / 1920 * 100vw), 552px);
+  --spacing-c-138-5: clamp(calc(554px * 0.6), calc(554 / 1920 * 100vw), 554px);
+  --spacing-c-139: clamp(calc(556px * 0.6), calc(556 / 1920 * 100vw), 556px);
+  --spacing-c-139-5: clamp(calc(558px * 0.6), calc(558 / 1920 * 100vw), 558px);
+  --spacing-c-140: clamp(calc(560px * 0.6), calc(560 / 1920 * 100vw), 560px);
+  --spacing-c-140-5: clamp(calc(562px * 0.6), calc(562 / 1920 * 100vw), 562px);
+  --spacing-c-141: clamp(calc(564px * 0.6), calc(564 / 1920 * 100vw), 564px);
+  --spacing-c-141-5: clamp(calc(566px * 0.6), calc(566 / 1920 * 100vw), 566px);
+  --spacing-c-142: clamp(calc(568px * 0.6), calc(568 / 1920 * 100vw), 568px);
+  --spacing-c-142-5: clamp(calc(570px * 0.6), calc(570 / 1920 * 100vw), 570px);
+  --spacing-c-143: clamp(calc(572px * 0.6), calc(572 / 1920 * 100vw), 572px);
+  --spacing-c-143-5: clamp(calc(574px * 0.6), calc(574 / 1920 * 100vw), 574px);
+  --spacing-c-144: clamp(calc(576px * 0.6), calc(576 / 1920 * 100vw), 576px);
+  --spacing-c-144-5: clamp(calc(578px * 0.6), calc(578 / 1920 * 100vw), 578px);
+  --spacing-c-145: clamp(calc(580px * 0.6), calc(580 / 1920 * 100vw), 580px);
+  --spacing-c-145-5: clamp(calc(582px * 0.6), calc(582 / 1920 * 100vw), 582px);
+  --spacing-c-146: clamp(calc(584px * 0.6), calc(584 / 1920 * 100vw), 584px);
+  --spacing-c-146-5: clamp(calc(586px * 0.6), calc(586 / 1920 * 100vw), 586px);
+  --spacing-c-147: clamp(calc(588px * 0.6), calc(588 / 1920 * 100vw), 588px);
+  --spacing-c-147-5: clamp(calc(590px * 0.6), calc(590 / 1920 * 100vw), 590px);
+  --spacing-c-148: clamp(calc(592px * 0.6), calc(592 / 1920 * 100vw), 592px);
+  --spacing-c-148-5: clamp(calc(594px * 0.6), calc(594 / 1920 * 100vw), 594px);
+  --spacing-c-149: clamp(calc(596px * 0.6), calc(596 / 1920 * 100vw), 596px);
+  --spacing-c-149-5: clamp(calc(598px * 0.6), calc(598 / 1920 * 100vw), 598px);
+  --spacing-c-150: clamp(calc(600px * 0.6), calc(600 / 1920 * 100vw), 600px);
+  --spacing-c-150-5: clamp(calc(602px * 0.6), calc(602 / 1920 * 100vw), 602px);
+  --spacing-c-151: clamp(calc(604px * 0.6), calc(604 / 1920 * 100vw), 604px);
+  --spacing-c-151-5: clamp(calc(606px * 0.6), calc(606 / 1920 * 100vw), 606px);
+  --spacing-c-152: clamp(calc(608px * 0.6), calc(608 / 1920 * 100vw), 608px);
+  --spacing-c-152-5: clamp(calc(610px * 0.6), calc(610 / 1920 * 100vw), 610px);
+  --spacing-c-153: clamp(calc(612px * 0.6), calc(612 / 1920 * 100vw), 612px);
+  --spacing-c-153-5: clamp(calc(614px * 0.6), calc(614 / 1920 * 100vw), 614px);
+  --spacing-c-154: clamp(calc(616px * 0.6), calc(616 / 1920 * 100vw), 616px);
+  --spacing-c-154-5: clamp(calc(618px * 0.6), calc(618 / 1920 * 100vw), 618px);
+  --spacing-c-155: clamp(calc(620px * 0.6), calc(620 / 1920 * 100vw), 620px);
+  --spacing-c-155-5: clamp(calc(622px * 0.6), calc(622 / 1920 * 100vw), 622px);
+  --spacing-c-156: clamp(calc(624px * 0.6), calc(624 / 1920 * 100vw), 624px);
+  --spacing-c-156-5: clamp(calc(626px * 0.6), calc(626 / 1920 * 100vw), 626px);
+  --spacing-c-157: clamp(calc(628px * 0.6), calc(628 / 1920 * 100vw), 628px);
+  --spacing-c-157-5: clamp(calc(630px * 0.6), calc(630 / 1920 * 100vw), 630px);
+  --spacing-c-158: clamp(calc(632px * 0.6), calc(632 / 1920 * 100vw), 632px);
+  --spacing-c-158-5: clamp(calc(634px * 0.6), calc(634 / 1920 * 100vw), 634px);
+  --spacing-c-159: clamp(calc(636px * 0.6), calc(636 / 1920 * 100vw), 636px);
+  --spacing-c-159-5: clamp(calc(638px * 0.6), calc(638 / 1920 * 100vw), 638px);
+  --spacing-c-160: clamp(calc(640px * 0.6), calc(640 / 1920 * 100vw), 640px);
+  --spacing-c-160-5: clamp(calc(642px * 0.6), calc(642 / 1920 * 100vw), 642px);
+  --spacing-c-161: clamp(calc(644px * 0.6), calc(644 / 1920 * 100vw), 644px);
+  --spacing-c-161-5: clamp(calc(646px * 0.6), calc(646 / 1920 * 100vw), 646px);
+  --spacing-c-162: clamp(calc(648px * 0.6), calc(648 / 1920 * 100vw), 648px);
+  --spacing-c-162-5: clamp(calc(650px * 0.6), calc(650 / 1920 * 100vw), 650px);
+  --spacing-c-163: clamp(calc(652px * 0.6), calc(652 / 1920 * 100vw), 652px);
+  --spacing-c-163-5: clamp(calc(654px * 0.6), calc(654 / 1920 * 100vw), 654px);
+  --spacing-c-164: clamp(calc(656px * 0.6), calc(656 / 1920 * 100vw), 656px);
+  --spacing-c-164-5: clamp(calc(658px * 0.6), calc(658 / 1920 * 100vw), 658px);
+  --spacing-c-165: clamp(calc(660px * 0.6), calc(660 / 1920 * 100vw), 660px);
+  --spacing-c-165-5: clamp(calc(662px * 0.6), calc(662 / 1920 * 100vw), 662px);
+  --spacing-c-166: clamp(calc(664px * 0.6), calc(664 / 1920 * 100vw), 664px);
+  --spacing-c-166-5: clamp(calc(666px * 0.6), calc(666 / 1920 * 100vw), 666px);
+  --spacing-c-167: clamp(calc(668px * 0.6), calc(668 / 1920 * 100vw), 668px);
+  --spacing-c-167-5: clamp(calc(670px * 0.6), calc(670 / 1920 * 100vw), 670px);
+  --spacing-c-168: clamp(calc(672px * 0.6), calc(672 / 1920 * 100vw), 672px);
+  --spacing-c-168-5: clamp(calc(674px * 0.6), calc(674 / 1920 * 100vw), 674px);
+  --spacing-c-169: clamp(calc(676px * 0.6), calc(676 / 1920 * 100vw), 676px);
+  --spacing-c-169-5: clamp(calc(678px * 0.6), calc(678 / 1920 * 100vw), 678px);
+  --spacing-c-170: clamp(calc(680px * 0.6), calc(680 / 1920 * 100vw), 680px);
+  --spacing-c-170-5: clamp(calc(682px * 0.6), calc(682 / 1920 * 100vw), 682px);
+  --spacing-c-171: clamp(calc(684px * 0.6), calc(684 / 1920 * 100vw), 684px);
+  --spacing-c-171-5: clamp(calc(686px * 0.6), calc(686 / 1920 * 100vw), 686px);
+  --spacing-c-172: clamp(calc(688px * 0.6), calc(688 / 1920 * 100vw), 688px);
+  --spacing-c-172-5: clamp(calc(690px * 0.6), calc(690 / 1920 * 100vw), 690px);
+  --spacing-c-173: clamp(calc(692px * 0.6), calc(692 / 1920 * 100vw), 692px);
+  --spacing-c-173-5: clamp(calc(694px * 0.6), calc(694 / 1920 * 100vw), 694px);
+  --spacing-c-174: clamp(calc(696px * 0.6), calc(696 / 1920 * 100vw), 696px);
+  --spacing-c-174-5: clamp(calc(698px * 0.6), calc(698 / 1920 * 100vw), 698px);
+  --spacing-c-175: clamp(calc(700px * 0.6), calc(700 / 1920 * 100vw), 700px);
+  --spacing-c-175-5: clamp(calc(702px * 0.6), calc(702 / 1920 * 100vw), 702px);
+  --spacing-c-176: clamp(calc(704px * 0.6), calc(704 / 1920 * 100vw), 704px);
+  --spacing-c-176-5: clamp(calc(706px * 0.6), calc(706 / 1920 * 100vw), 706px);
+  --spacing-c-177: clamp(calc(708px * 0.6), calc(708 / 1920 * 100vw), 708px);
+  --spacing-c-177-5: clamp(calc(710px * 0.6), calc(710 / 1920 * 100vw), 710px);
+  --spacing-c-178: clamp(calc(712px * 0.6), calc(712 / 1920 * 100vw), 712px);
+  --spacing-c-178-5: clamp(calc(714px * 0.6), calc(714 / 1920 * 100vw), 714px);
+  --spacing-c-179: clamp(calc(716px * 0.6), calc(716 / 1920 * 100vw), 716px);
+  --spacing-c-179-5: clamp(calc(718px * 0.6), calc(718 / 1920 * 100vw), 718px);
+  --spacing-c-180: clamp(calc(720px * 0.6), calc(720 / 1920 * 100vw), 720px);
+  --spacing-c-180-5: clamp(calc(722px * 0.6), calc(722 / 1920 * 100vw), 722px);
+  --spacing-c-181: clamp(calc(724px * 0.6), calc(724 / 1920 * 100vw), 724px);
+  --spacing-c-181-5: clamp(calc(726px * 0.6), calc(726 / 1920 * 100vw), 726px);
+  --spacing-c-182: clamp(calc(728px * 0.6), calc(728 / 1920 * 100vw), 728px);
+  --spacing-c-182-5: clamp(calc(730px * 0.6), calc(730 / 1920 * 100vw), 730px);
+  --spacing-c-183: clamp(calc(732px * 0.6), calc(732 / 1920 * 100vw), 732px);
+  --spacing-c-183-5: clamp(calc(734px * 0.6), calc(734 / 1920 * 100vw), 734px);
+  --spacing-c-184: clamp(calc(736px * 0.6), calc(736 / 1920 * 100vw), 736px);
+  --spacing-c-184-5: clamp(calc(738px * 0.6), calc(738 / 1920 * 100vw), 738px);
+  --spacing-c-185: clamp(calc(740px * 0.6), calc(740 / 1920 * 100vw), 740px);
+  --spacing-c-185-5: clamp(calc(742px * 0.6), calc(742 / 1920 * 100vw), 742px);
+  --spacing-c-186: clamp(calc(744px * 0.6), calc(744 / 1920 * 100vw), 744px);
+  --spacing-c-186-5: clamp(calc(746px * 0.6), calc(746 / 1920 * 100vw), 746px);
+  --spacing-c-187: clamp(calc(748px * 0.6), calc(748 / 1920 * 100vw), 748px);
+  --spacing-c-187-5: clamp(calc(750px * 0.6), calc(750 / 1920 * 100vw), 750px);
+  --spacing-c-188: clamp(calc(752px * 0.6), calc(752 / 1920 * 100vw), 752px);
+  --spacing-c-188-5: clamp(calc(754px * 0.6), calc(754 / 1920 * 100vw), 754px);
+  --spacing-c-189: clamp(calc(756px * 0.6), calc(756 / 1920 * 100vw), 756px);
+  --spacing-c-189-5: clamp(calc(758px * 0.6), calc(758 / 1920 * 100vw), 758px);
+  --spacing-c-190: clamp(calc(760px * 0.6), calc(760 / 1920 * 100vw), 760px);
+  --spacing-c-190-5: clamp(calc(762px * 0.6), calc(762 / 1920 * 100vw), 762px);
+  --spacing-c-191: clamp(calc(764px * 0.6), calc(764 / 1920 * 100vw), 764px);
+  --spacing-c-191-5: clamp(calc(766px * 0.6), calc(766 / 1920 * 100vw), 766px);
+  --spacing-c-192: clamp(calc(768px * 0.6), calc(768 / 1920 * 100vw), 768px);
+  --spacing-c-192-5: clamp(calc(770px * 0.6), calc(770 / 1920 * 100vw), 770px);
+  --spacing-c-193: clamp(calc(772px * 0.6), calc(772 / 1920 * 100vw), 772px);
+  --spacing-c-193-5: clamp(calc(774px * 0.6), calc(774 / 1920 * 100vw), 774px);
+  --spacing-c-194: clamp(calc(776px * 0.6), calc(776 / 1920 * 100vw), 776px);
+  --spacing-c-194-5: clamp(calc(778px * 0.6), calc(778 / 1920 * 100vw), 778px);
+  --spacing-c-195: clamp(calc(780px * 0.6), calc(780 / 1920 * 100vw), 780px);
+  --spacing-c-195-5: clamp(calc(782px * 0.6), calc(782 / 1920 * 100vw), 782px);
+  --spacing-c-196: clamp(calc(784px * 0.6), calc(784 / 1920 * 100vw), 784px);
+  --spacing-c-196-5: clamp(calc(786px * 0.6), calc(786 / 1920 * 100vw), 786px);
+  --spacing-c-197: clamp(calc(788px * 0.6), calc(788 / 1920 * 100vw), 788px);
+  --spacing-c-197-5: clamp(calc(790px * 0.6), calc(790 / 1920 * 100vw), 790px);
+  --spacing-c-198: clamp(calc(792px * 0.6), calc(792 / 1920 * 100vw), 792px);
+  --spacing-c-198-5: clamp(calc(794px * 0.6), calc(794 / 1920 * 100vw), 794px);
+  --spacing-c-199: clamp(calc(796px * 0.6), calc(796 / 1920 * 100vw), 796px);
+  --spacing-c-199-5: clamp(calc(798px * 0.6), calc(798 / 1920 * 100vw), 798px);
+  --spacing-c-200: clamp(calc(800px * 0.6), calc(800 / 1920 * 100vw), 800px);
+  --spacing-c-200-5: clamp(calc(802px * 0.6), calc(802 / 1920 * 100vw), 802px);
+  --spacing-c-201: clamp(calc(804px * 0.6), calc(804 / 1920 * 100vw), 804px);
+  --spacing-c-201-5: clamp(calc(806px * 0.6), calc(806 / 1920 * 100vw), 806px);
+  --spacing-c-202: clamp(calc(808px * 0.6), calc(808 / 1920 * 100vw), 808px);
+  --spacing-c-202-5: clamp(calc(810px * 0.6), calc(810 / 1920 * 100vw), 810px);
+  --spacing-c-203: clamp(calc(812px * 0.6), calc(812 / 1920 * 100vw), 812px);
+  --spacing-c-203-5: clamp(calc(814px * 0.6), calc(814 / 1920 * 100vw), 814px);
+  --spacing-c-204: clamp(calc(816px * 0.6), calc(816 / 1920 * 100vw), 816px);
+  --spacing-c-204-5: clamp(calc(818px * 0.6), calc(818 / 1920 * 100vw), 818px);
+  --spacing-c-205: clamp(calc(820px * 0.6), calc(820 / 1920 * 100vw), 820px);
+  --spacing-c-205-5: clamp(calc(822px * 0.6), calc(822 / 1920 * 100vw), 822px);
+  --spacing-c-206: clamp(calc(824px * 0.6), calc(824 / 1920 * 100vw), 824px);
+  --spacing-c-206-5: clamp(calc(826px * 0.6), calc(826 / 1920 * 100vw), 826px);
+  --spacing-c-207: clamp(calc(828px * 0.6), calc(828 / 1920 * 100vw), 828px);
+  --spacing-c-207-5: clamp(calc(830px * 0.6), calc(830 / 1920 * 100vw), 830px);
+  --spacing-c-208: clamp(calc(832px * 0.6), calc(832 / 1920 * 100vw), 832px);
+  --spacing-c-208-5: clamp(calc(834px * 0.6), calc(834 / 1920 * 100vw), 834px);
+  --spacing-c-209: clamp(calc(836px * 0.6), calc(836 / 1920 * 100vw), 836px);
+  --spacing-c-209-5: clamp(calc(838px * 0.6), calc(838 / 1920 * 100vw), 838px);
+  --spacing-c-210: clamp(calc(840px * 0.6), calc(840 / 1920 * 100vw), 840px);
+  --spacing-c-210-5: clamp(calc(842px * 0.6), calc(842 / 1920 * 100vw), 842px);
+  --spacing-c-211: clamp(calc(844px * 0.6), calc(844 / 1920 * 100vw), 844px);
+  --spacing-c-211-5: clamp(calc(846px * 0.6), calc(846 / 1920 * 100vw), 846px);
+  --spacing-c-212: clamp(calc(848px * 0.6), calc(848 / 1920 * 100vw), 848px);
+  --spacing-c-212-5: clamp(calc(850px * 0.6), calc(850 / 1920 * 100vw), 850px);
+  --spacing-c-213: clamp(calc(852px * 0.6), calc(852 / 1920 * 100vw), 852px);
+  --spacing-c-213-5: clamp(calc(854px * 0.6), calc(854 / 1920 * 100vw), 854px);
+  --spacing-c-214: clamp(calc(856px * 0.6), calc(856 / 1920 * 100vw), 856px);
+  --spacing-c-214-5: clamp(calc(858px * 0.6), calc(858 / 1920 * 100vw), 858px);
+  --spacing-c-215: clamp(calc(860px * 0.6), calc(860 / 1920 * 100vw), 860px);
+  --spacing-c-215-5: clamp(calc(862px * 0.6), calc(862 / 1920 * 100vw), 862px);
+  --spacing-c-216: clamp(calc(864px * 0.6), calc(864 / 1920 * 100vw), 864px);
+  --spacing-c-216-5: clamp(calc(866px * 0.6), calc(866 / 1920 * 100vw), 866px);
+  --spacing-c-217: clamp(calc(868px * 0.6), calc(868 / 1920 * 100vw), 868px);
+  --spacing-c-217-5: clamp(calc(870px * 0.6), calc(870 / 1920 * 100vw), 870px);
+  --spacing-c-218: clamp(calc(872px * 0.6), calc(872 / 1920 * 100vw), 872px);
+  --spacing-c-218-5: clamp(calc(874px * 0.6), calc(874 / 1920 * 100vw), 874px);
+  --spacing-c-219: clamp(calc(876px * 0.6), calc(876 / 1920 * 100vw), 876px);
+  --spacing-c-219-5: clamp(calc(878px * 0.6), calc(878 / 1920 * 100vw), 878px);
+  --spacing-c-220: clamp(calc(880px * 0.6), calc(880 / 1920 * 100vw), 880px);
+  --spacing-c-220-5: clamp(calc(882px * 0.6), calc(882 / 1920 * 100vw), 882px);
+  --spacing-c-221: clamp(calc(884px * 0.6), calc(884 / 1920 * 100vw), 884px);
+  --spacing-c-221-5: clamp(calc(886px * 0.6), calc(886 / 1920 * 100vw), 886px);
+  --spacing-c-222: clamp(calc(888px * 0.6), calc(888 / 1920 * 100vw), 888px);
+  --spacing-c-222-5: clamp(calc(890px * 0.6), calc(890 / 1920 * 100vw), 890px);
+  --spacing-c-223: clamp(calc(892px * 0.6), calc(892 / 1920 * 100vw), 892px);
+  --spacing-c-223-5: clamp(calc(894px * 0.6), calc(894 / 1920 * 100vw), 894px);
+  --spacing-c-224: clamp(calc(896px * 0.6), calc(896 / 1920 * 100vw), 896px);
+  --spacing-c-224-5: clamp(calc(898px * 0.6), calc(898 / 1920 * 100vw), 898px);
+  --spacing-c-225: clamp(calc(900px * 0.6), calc(900 / 1920 * 100vw), 900px);
+  --spacing-c-225-5: clamp(calc(902px * 0.6), calc(902 / 1920 * 100vw), 902px);
+  --spacing-c-226: clamp(calc(904px * 0.6), calc(904 / 1920 * 100vw), 904px);
+  --spacing-c-226-5: clamp(calc(906px * 0.6), calc(906 / 1920 * 100vw), 906px);
+  --spacing-c-227: clamp(calc(908px * 0.6), calc(908 / 1920 * 100vw), 908px);
+  --spacing-c-227-5: clamp(calc(910px * 0.6), calc(910 / 1920 * 100vw), 910px);
+  --spacing-c-228: clamp(calc(912px * 0.6), calc(912 / 1920 * 100vw), 912px);
+  --spacing-c-228-5: clamp(calc(914px * 0.6), calc(914 / 1920 * 100vw), 914px);
+  --spacing-c-229: clamp(calc(916px * 0.6), calc(916 / 1920 * 100vw), 916px);
+  --spacing-c-229-5: clamp(calc(918px * 0.6), calc(918 / 1920 * 100vw), 918px);
+  --spacing-c-230: clamp(calc(920px * 0.6), calc(920 / 1920 * 100vw), 920px);
+  --spacing-c-230-5: clamp(calc(922px * 0.6), calc(922 / 1920 * 100vw), 922px);
+  --spacing-c-231: clamp(calc(924px * 0.6), calc(924 / 1920 * 100vw), 924px);
+  --spacing-c-231-5: clamp(calc(926px * 0.6), calc(926 / 1920 * 100vw), 926px);
+  --spacing-c-232: clamp(calc(928px * 0.6), calc(928 / 1920 * 100vw), 928px);
+  --spacing-c-232-5: clamp(calc(930px * 0.6), calc(930 / 1920 * 100vw), 930px);
+  --spacing-c-233: clamp(calc(932px * 0.6), calc(932 / 1920 * 100vw), 932px);
+  --spacing-c-233-5: clamp(calc(934px * 0.6), calc(934 / 1920 * 100vw), 934px);
+  --spacing-c-234: clamp(calc(936px * 0.6), calc(936 / 1920 * 100vw), 936px);
+  --spacing-c-234-5: clamp(calc(938px * 0.6), calc(938 / 1920 * 100vw), 938px);
+  --spacing-c-235: clamp(calc(940px * 0.6), calc(940 / 1920 * 100vw), 940px);
+  --spacing-c-235-5: clamp(calc(942px * 0.6), calc(942 / 1920 * 100vw), 942px);
+  --spacing-c-236: clamp(calc(944px * 0.6), calc(944 / 1920 * 100vw), 944px);
+  --spacing-c-236-5: clamp(calc(946px * 0.6), calc(946 / 1920 * 100vw), 946px);
+  --spacing-c-237: clamp(calc(948px * 0.6), calc(948 / 1920 * 100vw), 948px);
+  --spacing-c-237-5: clamp(calc(950px * 0.6), calc(950 / 1920 * 100vw), 950px);
+  --spacing-c-238: clamp(calc(952px * 0.6), calc(952 / 1920 * 100vw), 952px);
+  --spacing-c-238-5: clamp(calc(954px * 0.6), calc(954 / 1920 * 100vw), 954px);
+  --spacing-c-239: clamp(calc(956px * 0.6), calc(956 / 1920 * 100vw), 956px);
+  --spacing-c-239-5: clamp(calc(958px * 0.6), calc(958 / 1920 * 100vw), 958px);
+  --spacing-c-240: clamp(calc(960px * 0.6), calc(960 / 1920 * 100vw), 960px);
+  --spacing-c-240-5: clamp(calc(962px * 0.6), calc(962 / 1920 * 100vw), 962px);
+  --spacing-c-241: clamp(calc(964px * 0.6), calc(964 / 1920 * 100vw), 964px);
+  --spacing-c-241-5: clamp(calc(966px * 0.6), calc(966 / 1920 * 100vw), 966px);
+  --spacing-c-242: clamp(calc(968px * 0.6), calc(968 / 1920 * 100vw), 968px);
+  --spacing-c-242-5: clamp(calc(970px * 0.6), calc(970 / 1920 * 100vw), 970px);
+  --spacing-c-243: clamp(calc(972px * 0.6), calc(972 / 1920 * 100vw), 972px);
+  --spacing-c-243-5: clamp(calc(974px * 0.6), calc(974 / 1920 * 100vw), 974px);
+  --spacing-c-244: clamp(calc(976px * 0.6), calc(976 / 1920 * 100vw), 976px);
+  --spacing-c-244-5: clamp(calc(978px * 0.6), calc(978 / 1920 * 100vw), 978px);
+  --spacing-c-245: clamp(calc(980px * 0.6), calc(980 / 1920 * 100vw), 980px);
+  --spacing-c-245-5: clamp(calc(982px * 0.6), calc(982 / 1920 * 100vw), 982px);
+  --spacing-c-246: clamp(calc(984px * 0.6), calc(984 / 1920 * 100vw), 984px);
+  --spacing-c-246-5: clamp(calc(986px * 0.6), calc(986 / 1920 * 100vw), 986px);
+  --spacing-c-247: clamp(calc(988px * 0.6), calc(988 / 1920 * 100vw), 988px);
+  --spacing-c-247-5: clamp(calc(990px * 0.6), calc(990 / 1920 * 100vw), 990px);
+  --spacing-c-248: clamp(calc(992px * 0.6), calc(992 / 1920 * 100vw), 992px);
+  --spacing-c-248-5: clamp(calc(994px * 0.6), calc(994 / 1920 * 100vw), 994px);
+  --spacing-c-249: clamp(calc(996px * 0.6), calc(996 / 1920 * 100vw), 996px);
+  --spacing-c-249-5: clamp(calc(998px * 0.6), calc(998 / 1920 * 100vw), 998px);
+  --spacing-c-250: clamp(calc(1000px * 0.6), calc(1000 / 1920 * 100vw), 1000px);
+  --spacing-c-250-5: clamp(
+    calc(1002px * 0.6),
+    calc(1002 / 1920 * 100vw),
+    1002px
+  );
+  --spacing-c-251: clamp(calc(1004px * 0.6), calc(1004 / 1920 * 100vw), 1004px);
+  --spacing-c-251-5: clamp(
+    calc(1006px * 0.6),
+    calc(1006 / 1920 * 100vw),
+    1006px
+  );
+  --spacing-c-252: clamp(calc(1008px * 0.6), calc(1008 / 1920 * 100vw), 1008px);
+  --spacing-c-252-5: clamp(
+    calc(1010px * 0.6),
+    calc(1010 / 1920 * 100vw),
+    1010px
+  );
+  --spacing-c-253: clamp(calc(1012px * 0.6), calc(1012 / 1920 * 100vw), 1012px);
+  --spacing-c-253-5: clamp(
+    calc(1014px * 0.6),
+    calc(1014 / 1920 * 100vw),
+    1014px
+  );
+  --spacing-c-254: clamp(calc(1016px * 0.6), calc(1016 / 1920 * 100vw), 1016px);
+  --spacing-c-254-5: clamp(
+    calc(1018px * 0.6),
+    calc(1018 / 1920 * 100vw),
+    1018px
+  );
+  --spacing-c-255: clamp(calc(1020px * 0.6), calc(1020 / 1920 * 100vw), 1020px);
+  --spacing-c-255-5: clamp(
+    calc(1022px * 0.6),
+    calc(1022 / 1920 * 100vw),
+    1022px
+  );
+  --spacing-c-256: clamp(calc(1024px * 0.6), calc(1024 / 1920 * 100vw), 1024px);
+  --spacing-c-256-5: clamp(
+    calc(1026px * 0.6),
+    calc(1026 / 1920 * 100vw),
+    1026px
+  );
+  --spacing-c-257: clamp(calc(1028px * 0.6), calc(1028 / 1920 * 100vw), 1028px);
+  --spacing-c-257-5: clamp(
+    calc(1030px * 0.6),
+    calc(1030 / 1920 * 100vw),
+    1030px
+  );
+  --spacing-c-258: clamp(calc(1032px * 0.6), calc(1032 / 1920 * 100vw), 1032px);
+  --spacing-c-258-5: clamp(
+    calc(1034px * 0.6),
+    calc(1034 / 1920 * 100vw),
+    1034px
+  );
+  --spacing-c-259: clamp(calc(1036px * 0.6), calc(1036 / 1920 * 100vw), 1036px);
+  --spacing-c-259-5: clamp(
+    calc(1038px * 0.6),
+    calc(1038 / 1920 * 100vw),
+    1038px
+  );
+  --spacing-c-260: clamp(calc(1040px * 0.6), calc(1040 / 1920 * 100vw), 1040px);
+  --spacing-c-260-5: clamp(
+    calc(1042px * 0.6),
+    calc(1042 / 1920 * 100vw),
+    1042px
+  );
+  --spacing-c-261: clamp(calc(1044px * 0.6), calc(1044 / 1920 * 100vw), 1044px);
+  --spacing-c-261-5: clamp(
+    calc(1046px * 0.6),
+    calc(1046 / 1920 * 100vw),
+    1046px
+  );
+  --spacing-c-262: clamp(calc(1048px * 0.6), calc(1048 / 1920 * 100vw), 1048px);
+  --spacing-c-262-5: clamp(
+    calc(1050px * 0.6),
+    calc(1050 / 1920 * 100vw),
+    1050px
+  );
+  --spacing-c-263: clamp(calc(1052px * 0.6), calc(1052 / 1920 * 100vw), 1052px);
+  --spacing-c-263-5: clamp(
+    calc(1054px * 0.6),
+    calc(1054 / 1920 * 100vw),
+    1054px
+  );
+  --spacing-c-264: clamp(calc(1056px * 0.6), calc(1056 / 1920 * 100vw), 1056px);
+  --spacing-c-264-5: clamp(
+    calc(1058px * 0.6),
+    calc(1058 / 1920 * 100vw),
+    1058px
+  );
+  --spacing-c-265: clamp(calc(1060px * 0.6), calc(1060 / 1920 * 100vw), 1060px);
+  --spacing-c-265-5: clamp(
+    calc(1062px * 0.6),
+    calc(1062 / 1920 * 100vw),
+    1062px
+  );
+  --spacing-c-266: clamp(calc(1064px * 0.6), calc(1064 / 1920 * 100vw), 1064px);
+  --spacing-c-266-5: clamp(
+    calc(1066px * 0.6),
+    calc(1066 / 1920 * 100vw),
+    1066px
+  );
+  --spacing-c-267: clamp(calc(1068px * 0.6), calc(1068 / 1920 * 100vw), 1068px);
+  --spacing-c-267-5: clamp(
+    calc(1070px * 0.6),
+    calc(1070 / 1920 * 100vw),
+    1070px
+  );
+  --spacing-c-268: clamp(calc(1072px * 0.6), calc(1072 / 1920 * 100vw), 1072px);
+  --spacing-c-268-5: clamp(
+    calc(1074px * 0.6),
+    calc(1074 / 1920 * 100vw),
+    1074px
+  );
+  --spacing-c-269: clamp(calc(1076px * 0.6), calc(1076 / 1920 * 100vw), 1076px);
+  --spacing-c-269-5: clamp(
+    calc(1078px * 0.6),
+    calc(1078 / 1920 * 100vw),
+    1078px
+  );
+  --spacing-c-270: clamp(calc(1080px * 0.6), calc(1080 / 1920 * 100vw), 1080px);
+  --spacing-c-270-5: clamp(
+    calc(1082px * 0.6),
+    calc(1082 / 1920 * 100vw),
+    1082px
+  );
+  --spacing-c-271: clamp(calc(1084px * 0.6), calc(1084 / 1920 * 100vw), 1084px);
+  --spacing-c-271-5: clamp(
+    calc(1086px * 0.6),
+    calc(1086 / 1920 * 100vw),
+    1086px
+  );
+  --spacing-c-272: clamp(calc(1088px * 0.6), calc(1088 / 1920 * 100vw), 1088px);
+  --spacing-c-272-5: clamp(
+    calc(1090px * 0.6),
+    calc(1090 / 1920 * 100vw),
+    1090px
+  );
+  --spacing-c-273: clamp(calc(1092px * 0.6), calc(1092 / 1920 * 100vw), 1092px);
+  --spacing-c-273-5: clamp(
+    calc(1094px * 0.6),
+    calc(1094 / 1920 * 100vw),
+    1094px
+  );
+  --spacing-c-274: clamp(calc(1096px * 0.6), calc(1096 / 1920 * 100vw), 1096px);
+  --spacing-c-274-5: clamp(
+    calc(1098px * 0.6),
+    calc(1098 / 1920 * 100vw),
+    1098px
+  );
+  --spacing-c-275: clamp(calc(1100px * 0.6), calc(1100 / 1920 * 100vw), 1100px);
+  --spacing-c-275-5: clamp(
+    calc(1102px * 0.6),
+    calc(1102 / 1920 * 100vw),
+    1102px
+  );
+  --spacing-c-276: clamp(calc(1104px * 0.6), calc(1104 / 1920 * 100vw), 1104px);
+  --spacing-c-276-5: clamp(
+    calc(1106px * 0.6),
+    calc(1106 / 1920 * 100vw),
+    1106px
+  );
+  --spacing-c-277: clamp(calc(1108px * 0.6), calc(1108 / 1920 * 100vw), 1108px);
+  --spacing-c-277-5: clamp(
+    calc(1110px * 0.6),
+    calc(1110 / 1920 * 100vw),
+    1110px
+  );
+  --spacing-c-278: clamp(calc(1112px * 0.6), calc(1112 / 1920 * 100vw), 1112px);
+  --spacing-c-278-5: clamp(
+    calc(1114px * 0.6),
+    calc(1114 / 1920 * 100vw),
+    1114px
+  );
+  --spacing-c-279: clamp(calc(1116px * 0.6), calc(1116 / 1920 * 100vw), 1116px);
+  --spacing-c-279-5: clamp(
+    calc(1118px * 0.6),
+    calc(1118 / 1920 * 100vw),
+    1118px
+  );
+  --spacing-c-280: clamp(calc(1120px * 0.6), calc(1120 / 1920 * 100vw), 1120px);
+  --spacing-c-280-5: clamp(
+    calc(1122px * 0.6),
+    calc(1122 / 1920 * 100vw),
+    1122px
+  );
+  --spacing-c-281: clamp(calc(1124px * 0.6), calc(1124 / 1920 * 100vw), 1124px);
+  --spacing-c-281-5: clamp(
+    calc(1126px * 0.6),
+    calc(1126 / 1920 * 100vw),
+    1126px
+  );
+  --spacing-c-282: clamp(calc(1128px * 0.6), calc(1128 / 1920 * 100vw), 1128px);
+  --spacing-c-282-5: clamp(
+    calc(1130px * 0.6),
+    calc(1130 / 1920 * 100vw),
+    1130px
+  );
+  --spacing-c-283: clamp(calc(1132px * 0.6), calc(1132 / 1920 * 100vw), 1132px);
+  --spacing-c-283-5: clamp(
+    calc(1134px * 0.6),
+    calc(1134 / 1920 * 100vw),
+    1134px
+  );
+  --spacing-c-284: clamp(calc(1136px * 0.6), calc(1136 / 1920 * 100vw), 1136px);
+  --spacing-c-284-5: clamp(
+    calc(1138px * 0.6),
+    calc(1138 / 1920 * 100vw),
+    1138px
+  );
+  --spacing-c-285: clamp(calc(1140px * 0.6), calc(1140 / 1920 * 100vw), 1140px);
+  --spacing-c-285-5: clamp(
+    calc(1142px * 0.6),
+    calc(1142 / 1920 * 100vw),
+    1142px
+  );
+  --spacing-c-286: clamp(calc(1144px * 0.6), calc(1144 / 1920 * 100vw), 1144px);
+  --spacing-c-286-5: clamp(
+    calc(1146px * 0.6),
+    calc(1146 / 1920 * 100vw),
+    1146px
+  );
+  --spacing-c-287: clamp(calc(1148px * 0.6), calc(1148 / 1920 * 100vw), 1148px);
+  --spacing-c-287-5: clamp(
+    calc(1150px * 0.6),
+    calc(1150 / 1920 * 100vw),
+    1150px
+  );
+  --spacing-c-288: clamp(calc(1152px * 0.6), calc(1152 / 1920 * 100vw), 1152px);
+  --spacing-c-288-5: clamp(
+    calc(1154px * 0.6),
+    calc(1154 / 1920 * 100vw),
+    1154px
+  );
+  --spacing-c-289: clamp(calc(1156px * 0.6), calc(1156 / 1920 * 100vw), 1156px);
+  --spacing-c-289-5: clamp(
+    calc(1158px * 0.6),
+    calc(1158 / 1920 * 100vw),
+    1158px
+  );
+  --spacing-c-290: clamp(calc(1160px * 0.6), calc(1160 / 1920 * 100vw), 1160px);
+  --spacing-c-290-5: clamp(
+    calc(1162px * 0.6),
+    calc(1162 / 1920 * 100vw),
+    1162px
+  );
+  --spacing-c-291: clamp(calc(1164px * 0.6), calc(1164 / 1920 * 100vw), 1164px);
+  --spacing-c-291-5: clamp(
+    calc(1166px * 0.6),
+    calc(1166 / 1920 * 100vw),
+    1166px
+  );
+  --spacing-c-292: clamp(calc(1168px * 0.6), calc(1168 / 1920 * 100vw), 1168px);
+  --spacing-c-292-5: clamp(
+    calc(1170px * 0.6),
+    calc(1170 / 1920 * 100vw),
+    1170px
+  );
+  --spacing-c-293: clamp(calc(1172px * 0.6), calc(1172 / 1920 * 100vw), 1172px);
+  --spacing-c-293-5: clamp(
+    calc(1174px * 0.6),
+    calc(1174 / 1920 * 100vw),
+    1174px
+  );
+  --spacing-c-294: clamp(calc(1176px * 0.6), calc(1176 / 1920 * 100vw), 1176px);
+  --spacing-c-294-5: clamp(
+    calc(1178px * 0.6),
+    calc(1178 / 1920 * 100vw),
+    1178px
+  );
+  --spacing-c-295: clamp(calc(1180px * 0.6), calc(1180 / 1920 * 100vw), 1180px);
+  --spacing-c-295-5: clamp(
+    calc(1182px * 0.6),
+    calc(1182 / 1920 * 100vw),
+    1182px
+  );
+  --spacing-c-296: clamp(calc(1184px * 0.6), calc(1184 / 1920 * 100vw), 1184px);
+  --spacing-c-296-5: clamp(
+    calc(1186px * 0.6),
+    calc(1186 / 1920 * 100vw),
+    1186px
+  );
+  --spacing-c-297: clamp(calc(1188px * 0.6), calc(1188 / 1920 * 100vw), 1188px);
+  --spacing-c-297-5: clamp(
+    calc(1190px * 0.6),
+    calc(1190 / 1920 * 100vw),
+    1190px
+  );
+  --spacing-c-298: clamp(calc(1192px * 0.6), calc(1192 / 1920 * 100vw), 1192px);
+  --spacing-c-298-5: clamp(
+    calc(1194px * 0.6),
+    calc(1194 / 1920 * 100vw),
+    1194px
+  );
+  --spacing-c-299: clamp(calc(1196px * 0.6), calc(1196 / 1920 * 100vw), 1196px);
+  --spacing-c-299-5: clamp(
+    calc(1198px * 0.6),
+    calc(1198 / 1920 * 100vw),
+    1198px
+  );
+  --spacing-c-300: clamp(calc(1200px * 0.6), calc(1200 / 1920 * 100vw), 1200px);
+
+  --radius-c-0-5: clamp(calc(2px * 0.6), calc(2 / 1920 * 100vw), 2px);
+  --radius-c-1: clamp(calc(4px * 0.6), calc(4 / 1920 * 100vw), 4px);
+  --radius-c-1-5: clamp(calc(6px * 0.6), calc(6 / 1920 * 100vw), 6px);
+  --radius-c-2: clamp(calc(8px * 0.6), calc(8 / 1920 * 100vw), 8px);
+  --radius-c-2-5: clamp(calc(10px * 0.6), calc(10 / 1920 * 100vw), 10px);
+  --radius-c-3: clamp(calc(12px * 0.6), calc(12 / 1920 * 100vw), 12px);
+  --radius-c-3-5: clamp(calc(14px * 0.6), calc(14 / 1920 * 100vw), 14px);
+  --radius-c-4: clamp(calc(16px * 0.6), calc(16 / 1920 * 100vw), 16px);
+  --radius-c-4-5: clamp(calc(18px * 0.6), calc(18 / 1920 * 100vw), 18px);
+  --radius-c-5: clamp(calc(20px * 0.6), calc(20 / 1920 * 100vw), 20px);
+  --radius-c-5-5: clamp(calc(22px * 0.6), calc(22 / 1920 * 100vw), 22px);
+  --radius-c-6: clamp(calc(24px * 0.6), calc(24 / 1920 * 100vw), 24px);
+  --radius-c-6-5: clamp(calc(26px * 0.6), calc(26 / 1920 * 100vw), 26px);
+  --radius-c-7: clamp(calc(28px * 0.6), calc(28 / 1920 * 100vw), 28px);
+  --radius-c-7-5: clamp(calc(30px * 0.6), calc(30 / 1920 * 100vw), 30px);
+  --radius-c-8: clamp(calc(32px * 0.6), calc(32 / 1920 * 100vw), 32px);
+  --radius-c-8-5: clamp(calc(34px * 0.6), calc(34 / 1920 * 100vw), 34px);
+  --radius-c-9: clamp(calc(36px * 0.6), calc(36 / 1920 * 100vw), 36px);
+  --radius-c-9-5: clamp(calc(38px * 0.6), calc(38 / 1920 * 100vw), 38px);
+  --radius-c-10: clamp(calc(40px * 0.6), calc(40 / 1920 * 100vw), 40px);
+  --radius-c-10-5: clamp(calc(42px * 0.6), calc(42 / 1920 * 100vw), 42px);
+  --radius-c-11: clamp(calc(44px * 0.6), calc(44 / 1920 * 100vw), 44px);
+  --radius-c-11-5: clamp(calc(46px * 0.6), calc(46 / 1920 * 100vw), 46px);
+  --radius-c-12: clamp(calc(48px * 0.6), calc(48 / 1920 * 100vw), 48px);
+  --radius-c-12-5: clamp(calc(50px * 0.6), calc(50 / 1920 * 100vw), 50px);
+  --radius-c-13: clamp(calc(52px * 0.6), calc(52 / 1920 * 100vw), 52px);
+  --radius-c-13-5: clamp(calc(54px * 0.6), calc(54 / 1920 * 100vw), 54px);
+  --radius-c-14: clamp(calc(56px * 0.6), calc(56 / 1920 * 100vw), 56px);
+  --radius-c-14-5: clamp(calc(58px * 0.6), calc(58 / 1920 * 100vw), 58px);
+  --radius-c-15: clamp(calc(60px * 0.6), calc(60 / 1920 * 100vw), 60px);
+  --radius-c-15-5: clamp(calc(62px * 0.6), calc(62 / 1920 * 100vw), 62px);
+  --radius-c-16: clamp(calc(64px * 0.6), calc(64 / 1920 * 100vw), 64px);
+  --radius-c-16-5: clamp(calc(66px * 0.6), calc(66 / 1920 * 100vw), 66px);
+  --radius-c-17: clamp(calc(68px * 0.6), calc(68 / 1920 * 100vw), 68px);
+  --radius-c-17-5: clamp(calc(70px * 0.6), calc(70 / 1920 * 100vw), 70px);
+  --radius-c-18: clamp(calc(72px * 0.6), calc(72 / 1920 * 100vw), 72px);
+  --radius-c-18-5: clamp(calc(74px * 0.6), calc(74 / 1920 * 100vw), 74px);
+  --radius-c-19: clamp(calc(76px * 0.6), calc(76 / 1920 * 100vw), 76px);
+  --radius-c-19-5: clamp(calc(78px * 0.6), calc(78 / 1920 * 100vw), 78px);
+  --radius-c-20: clamp(calc(80px * 0.6), calc(80 / 1920 * 100vw), 80px);
+  --radius-c-20-5: clamp(calc(82px * 0.6), calc(82 / 1920 * 100vw), 82px);
+  --radius-c-21: clamp(calc(84px * 0.6), calc(84 / 1920 * 100vw), 84px);
+  --radius-c-21-5: clamp(calc(86px * 0.6), calc(86 / 1920 * 100vw), 86px);
+  --radius-c-22: clamp(calc(88px * 0.6), calc(88 / 1920 * 100vw), 88px);
+  --radius-c-22-5: clamp(calc(90px * 0.6), calc(90 / 1920 * 100vw), 90px);
+  --radius-c-23: clamp(calc(92px * 0.6), calc(92 / 1920 * 100vw), 92px);
+  --radius-c-23-5: clamp(calc(94px * 0.6), calc(94 / 1920 * 100vw), 94px);
+  --radius-c-24: clamp(calc(96px * 0.6), calc(96 / 1920 * 100vw), 96px);
+  --radius-c-24-5: clamp(calc(98px * 0.6), calc(98 / 1920 * 100vw), 98px);
+  --radius-c-25: clamp(calc(100px * 0.6), calc(100 / 1920 * 100vw), 100px);
+
+  --text-c-0-5: clamp(calc(2px * 0.6), calc(2 / 1920 * 100vw), 2px);
+  --text-c-1: clamp(calc(4px * 0.6), calc(4 / 1920 * 100vw), 4px);
+  --text-c-1-5: clamp(calc(6px * 0.6), calc(6 / 1920 * 100vw), 6px);
+  --text-c-2: clamp(calc(8px * 0.6), calc(8 / 1920 * 100vw), 8px);
+  --text-c-2-5: clamp(calc(10px * 0.6), calc(10 / 1920 * 100vw), 10px);
+  --text-c-3: clamp(calc(12px * 0.6), calc(12 / 1920 * 100vw), 12px);
+  --text-c-3-5: clamp(calc(14px * 0.6), calc(14 / 1920 * 100vw), 14px);
+  --text-c-4: clamp(calc(16px * 0.6), calc(16 / 1920 * 100vw), 16px);
+  --text-c-4-5: clamp(calc(18px * 0.6), calc(18 / 1920 * 100vw), 18px);
+  --text-c-5: clamp(calc(20px * 0.6), calc(20 / 1920 * 100vw), 20px);
+  --text-c-5-5: clamp(calc(22px * 0.6), calc(22 / 1920 * 100vw), 22px);
+  --text-c-6: clamp(calc(24px * 0.6), calc(24 / 1920 * 100vw), 24px);
+  --text-c-6-5: clamp(calc(26px * 0.6), calc(26 / 1920 * 100vw), 26px);
+  --text-c-7: clamp(calc(28px * 0.6), calc(28 / 1920 * 100vw), 28px);
+  --text-c-7-5: clamp(calc(30px * 0.6), calc(30 / 1920 * 100vw), 30px);
+  --text-c-8: clamp(calc(32px * 0.6), calc(32 / 1920 * 100vw), 32px);
+  --text-c-8-5: clamp(calc(34px * 0.6), calc(34 / 1920 * 100vw), 34px);
+  --text-c-9: clamp(calc(36px * 0.6), calc(36 / 1920 * 100vw), 36px);
+  --text-c-9-5: clamp(calc(38px * 0.6), calc(38 / 1920 * 100vw), 38px);
+  --text-c-10: clamp(calc(40px * 0.6), calc(40 / 1920 * 100vw), 40px);
+  --text-c-10-5: clamp(calc(42px * 0.6), calc(42 / 1920 * 100vw), 42px);
+  --text-c-11: clamp(calc(44px * 0.6), calc(44 / 1920 * 100vw), 44px);
+  --text-c-11-5: clamp(calc(46px * 0.6), calc(46 / 1920 * 100vw), 46px);
+  --text-c-12: clamp(calc(48px * 0.6), calc(48 / 1920 * 100vw), 48px);
+  --text-c-12-5: clamp(calc(50px * 0.6), calc(50 / 1920 * 100vw), 50px);
+  --text-c-13: clamp(calc(52px * 0.6), calc(52 / 1920 * 100vw), 52px);
+  --text-c-13-5: clamp(calc(54px * 0.6), calc(54 / 1920 * 100vw), 54px);
+  --text-c-14: clamp(calc(56px * 0.6), calc(56 / 1920 * 100vw), 56px);
+  --text-c-14-5: clamp(calc(58px * 0.6), calc(58 / 1920 * 100vw), 58px);
+  --text-c-15: clamp(calc(60px * 0.6), calc(60 / 1920 * 100vw), 60px);
+  --text-c-15-5: clamp(calc(62px * 0.6), calc(62 / 1920 * 100vw), 62px);
+  --text-c-16: clamp(calc(64px * 0.6), calc(64 / 1920 * 100vw), 64px);
+  --text-c-16-5: clamp(calc(66px * 0.6), calc(66 / 1920 * 100vw), 66px);
+  --text-c-17: clamp(calc(68px * 0.6), calc(68 / 1920 * 100vw), 68px);
+  --text-c-17-5: clamp(calc(70px * 0.6), calc(70 / 1920 * 100vw), 70px);
+  --text-c-18: clamp(calc(72px * 0.6), calc(72 / 1920 * 100vw), 72px);
+  --text-c-18-5: clamp(calc(74px * 0.6), calc(74 / 1920 * 100vw), 74px);
+  --text-c-19: clamp(calc(76px * 0.6), calc(76 / 1920 * 100vw), 76px);
+  --text-c-19-5: clamp(calc(78px * 0.6), calc(78 / 1920 * 100vw), 78px);
+  --text-c-20: clamp(calc(80px * 0.6), calc(80 / 1920 * 100vw), 80px);
+  --text-c-20-5: clamp(calc(82px * 0.6), calc(82 / 1920 * 100vw), 82px);
+  --text-c-21: clamp(calc(84px * 0.6), calc(84 / 1920 * 100vw), 84px);
+  --text-c-21-5: clamp(calc(86px * 0.6), calc(86 / 1920 * 100vw), 86px);
+  --text-c-22: clamp(calc(88px * 0.6), calc(88 / 1920 * 100vw), 88px);
+  --text-c-22-5: clamp(calc(90px * 0.6), calc(90 / 1920 * 100vw), 90px);
+  --text-c-23: clamp(calc(92px * 0.6), calc(92 / 1920 * 100vw), 92px);
+  --text-c-23-5: clamp(calc(94px * 0.6), calc(94 / 1920 * 100vw), 94px);
+  --text-c-24: clamp(calc(96px * 0.6), calc(96 / 1920 * 100vw), 96px);
+  --text-c-24-5: clamp(calc(98px * 0.6), calc(98 / 1920 * 100vw), 98px);
+  --text-c-25: clamp(calc(100px * 0.6), calc(100 / 1920 * 100vw), 100px);
+  --text-c-25-5: clamp(calc(102px * 0.6), calc(102 / 1920 * 100vw), 102px);
+  --text-c-26: clamp(calc(104px * 0.6), calc(104 / 1920 * 100vw), 104px);
+  --text-c-26-5: clamp(calc(106px * 0.6), calc(106 / 1920 * 100vw), 106px);
+  --text-c-27: clamp(calc(108px * 0.6), calc(108 / 1920 * 100vw), 108px);
+  --text-c-27-5: clamp(calc(110px * 0.6), calc(110 / 1920 * 100vw), 110px);
+  --text-c-28: clamp(calc(112px * 0.6), calc(112 / 1920 * 100vw), 112px);
+  --text-c-28-5: clamp(calc(114px * 0.6), calc(114 / 1920 * 100vw), 114px);
+  --text-c-29: clamp(calc(116px * 0.6), calc(116 / 1920 * 100vw), 116px);
+  --text-c-29-5: clamp(calc(118px * 0.6), calc(118 / 1920 * 100vw), 118px);
+  --text-c-30: clamp(calc(120px * 0.6), calc(120 / 1920 * 100vw), 120px);
+  --text-c-30-5: clamp(calc(122px * 0.6), calc(122 / 1920 * 100vw), 122px);
+  --text-c-31: clamp(calc(124px * 0.6), calc(124 / 1920 * 100vw), 124px);
+  --text-c-31-5: clamp(calc(126px * 0.6), calc(126 / 1920 * 100vw), 126px);
+  --text-c-32: clamp(calc(128px * 0.6), calc(128 / 1920 * 100vw), 128px);
+  --text-c-32-5: clamp(calc(130px * 0.6), calc(130 / 1920 * 100vw), 130px);
+  --text-c-33: clamp(calc(132px * 0.6), calc(132 / 1920 * 100vw), 132px);
+  --text-c-33-5: clamp(calc(134px * 0.6), calc(134 / 1920 * 100vw), 134px);
+  --text-c-34: clamp(calc(136px * 0.6), calc(136 / 1920 * 100vw), 136px);
+  --text-c-34-5: clamp(calc(138px * 0.6), calc(138 / 1920 * 100vw), 138px);
+  --text-c-35: clamp(calc(140px * 0.6), calc(140 / 1920 * 100vw), 140px);
+  --text-c-35-5: clamp(calc(142px * 0.6), calc(142 / 1920 * 100vw), 142px);
+  --text-c-36: clamp(calc(144px * 0.6), calc(144 / 1920 * 100vw), 144px);
+  --text-c-36-5: clamp(calc(146px * 0.6), calc(146 / 1920 * 100vw), 146px);
+  --text-c-37: clamp(calc(148px * 0.6), calc(148 / 1920 * 100vw), 148px);
+  --text-c-37-5: clamp(calc(150px * 0.6), calc(150 / 1920 * 100vw), 150px);
+}
