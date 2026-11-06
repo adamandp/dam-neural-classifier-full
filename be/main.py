@@ -6,12 +6,12 @@ from minio.error import S3Error
 
 from app.api.init_routes import init_routes
 from app.exceptions.handlers import (
-    app_exception_handler, 
+    app_exception_handler,
     sqlalchemy_exception_handler,
     minio_exception_handler
 )
 from app.db.database import engine, Base
-from app.model.jobs import Job # Import model to ensure it is registered with Base
+from app.model.jobs import Job
 
 # Create tables automatically
 Base.metadata.create_all(bind=engine)

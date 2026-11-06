@@ -166,8 +166,9 @@ class JobService:
             finally:
                 if local_path and os.path.exists(local_path):
                     try:
-                        os.remove(local_path)
-                        storage_service.delete_object(job_file_name)
+                        # os.remove(local_path)
+                        # storage_service.delete_object(job_file_name)
+                        pass
                     except Exception as cleanup_err:
                         logger.warning(f"Failed to cleanup {local_path}: {cleanup_err}")
 
